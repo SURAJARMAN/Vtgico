@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test(failed)">
+    <classes>
+      <class name="com.Vtiger.TestScript.HomePageTest">
+        <methods>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+          <include name="AS"/>
+          <include name="BT"/>
+          <include name="AC"/>
+          <include name="Home"/>
+          <include name="BM"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestScript.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
