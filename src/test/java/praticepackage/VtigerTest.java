@@ -24,6 +24,7 @@ public class VtigerTest extends BaseClass {
 //	h.homePage();
 	System.out.println("Hi Suraj 25 nov");
 	System.out.println("hiii");
+	System.out.println("hello suraj llll");
 	driver.findElement(By.xpath("//a[.='Organizations']/parent::td[@class='tabUnSelected']/a")).click();
 	driver.findElement(By.xpath("//img[@title='Create Organization...']")).click();
 	   driver.findElement(By.name("industry")).click();
